@@ -9,6 +9,7 @@
     <form name="registro" action="registro.php" method="post">
         Correo <input type="text" name="correo" required> <p></p>
         Nombre <input type="text" name="nombre" required> <p></p>
+<<<<<<< HEAD
         Contraseña <input type="text" name="contrasena" required> <p></p>
         Edad <input type="number" name="edad" required> <p></p>
         <label for="lang">Tipo de documento</label> 
@@ -18,6 +19,17 @@
             <option value="cedula_extrajera">Cédula de extranjeria</option>
         </select><p></p>
         Número de documento <input name="numero_documento" required> 
+=======
+        Contraseña <input type="number" name="contrasena" required> <p></p>
+        Edad <input type="number" name="edad" required> <p></p>
+        <label for="lang">Tipo de documento</label> 
+        <select name="tipo-documento" id="lang">
+            <option value="cedulaa">Cedula de ciudadania</option>
+            <option value="tarjeta_identidad">Tarjeta de identidad</option>
+            <option value="cedula_extrajera">Cédula de extranjeria</option>
+        </select><p></p>
+        Número de documento <input type="number" name="numero-documento" required> 
+>>>>>>> d7ff0e3 (hola)
         <input type="submit" value="Enviar"/> <br>
     </form>
     
