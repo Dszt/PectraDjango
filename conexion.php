@@ -34,5 +34,5 @@ if (mysqli_query($conn, $sql)) {
 
 // Cerrar conexión
 mysqli_close($conn);
-?>
+
 

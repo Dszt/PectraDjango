@@ -17,7 +17,7 @@
             <option value="tarjeta_identidad">Tarjeta de identidad</option>
             <option value="cedula_extrajera">Cédula de extranjeria</option>
         </select><p></p>
-        Número de documento <input type="number" name="numero_documento" required> 
+        Número de documento <input name="numero_documento" required> 
         <input type="submit" value="Enviar"/> <br>
     </form>
     
