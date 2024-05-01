@@ -1,6 +1,6 @@
 <?php
 
-include('conexion.php');
+include('./conexion.php');
 
 $nombre = $_POST['nombre'];
 $apellido = $_POST['apellido'];
@@ -17,5 +17,3 @@ VALUES('$nombre','$apellido','$correo', '$contrasena','$edad', '$telefono', '$ti
 
 $resul = mysqli_query($conectar, $sql) or trigger_error(" query failed SQL-ERROR: ".mysqli_error($conectar), E_USER_ERROR);
 echo"$sql";
-
-?>
