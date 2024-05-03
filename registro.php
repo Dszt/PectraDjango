@@ -8,4 +8,3 @@ $tipo_documento = $_POST['tipo_documento'];
 $numero_documento = $_POST['numero_documento'];
 
 
-?>
