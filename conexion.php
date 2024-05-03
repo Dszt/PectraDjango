@@ -1,12 +1,14 @@
-<?php 
-// Datos de conexión
-$host = "localhost";
-$usuario = "root";
-$contrasena = "";
-$base_de_datos = "pectra";
-
-// Conexión a la base de datos
-$conn = mysqli_connect($host, $usuario, $contrasena, $base_de_datos);
+<?php
+function conn()
+{
+    $hostname = "localhost";
+    $usuariodb ="root";
+    $passwordddb = "";
+    $dbname="pectra";
+    // Conexión a la base de datos
+    $conectar = mysqli_connect($hostname, $usuariodb, $passwordddb, $dbname);
+    return $conectar;
+}
 
 // Un mensaje por si no me puedo conectar
 if (!$conn) {
