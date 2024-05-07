@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Usuario</title>
+    <title>Formulario de inicio registro</title>
 </head>
 <body>
     <form name="registro" action="registro.php" method="post">
@@ -19,7 +19,12 @@
             <option value="tarjeta_identidad">Tarjeta de identidad</option>
             <option value="cedula_extrajera">Cédula de extranjeria</option>
         </select><p></p>
-        Número de documento <input type="number" name="numero_documento" required> 
+        Número de documento <input type="number" name="numero_documento" required> <p></p>
+        <label for="lang">Rol</label> 
+        <select name="rol" id="lang">
+            <option value="cliente">Cliente</option>
+            <option value="dueno">Dueño</option>
+        </select><p></p>
         <input type="submit" value="Enviar"/> <br>
     </form>
     
