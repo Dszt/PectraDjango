@@ -1,4 +1,3 @@
 # Proyecto pectra
-Unicamente desarrollo del backend de la pagina Pectra, este codigo es experimental, solo no quiero mezclarlo
-
+Desarrollo del proyecto pectra, pero con un backend en django
 
