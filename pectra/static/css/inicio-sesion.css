@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('../Imagenes/fonts/NotoSans-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'QuickSand';
+    src: url('../Imagenes/fonts/Quicksand-Bold.ttf');
+    font-style: normal;
+    font-weight: normal;
+}
+body {
+    margin: 0;
+    font-family: 'QuickSand', sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+form {
+    max-width: 300px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}

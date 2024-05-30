@@ -1,0 +1,215 @@
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('../Imagenes/fonts/NotoSans-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'QuickSand';
+    src: url('../Imagenes/fonts/Quicksand-Bold.ttf');
+    font-style: normal;
+    font-weight: normal;
+}
+body, .header, .main {
+    font-family: "Noto Sans", sans-serif; 
+}
+
+footer {
+    font-family: "QuickSand", sans-serif;
+}
+
+body{
+    background-size: cover; 
+    background-position: center; 
+    background-image: url(../Imagenes/fondo.jpg);
+    background-size: 100vw ;
+    
+}
+
+/*definir el fondo y tambien la fuente*/
+
+
+.navbar {
+    /*position: fixed; /* Hace que la barra de navegación se mantenga fija */
+    top: 0; /* La barra de navegación se pegará en la parte superior */
+    width: 98%; /* Ocupará todo el ancho de la pantalla */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:black;
+    padding: 10px 20px;
+    z-index: 1000; /* Asegura que la barra esté por encima de otros elementos */
+}
+.navbar {
+    background-color: rgba(0, 0, 0, 0.8); /* Negro con 80% de opacidad */
+}
+
+/* estilos de la imagen del inicio
+.logo img {
+    height: 50px;
+    margin-right: 20px; 
+} 
+*/
+header img{
+    display: block;
+    margin:  0 auto;
+    height: 50px;
+    margin-right: 20px;
+    background-color: white; 
+    border-radius: 90px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    font-size: 18px;
+}
+
+.beneficios, .comunidad,.contactanos, .quienes-somos{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px; /* Espacio entre los enlaces */
+}
+.beneficios:hover, .comunidad:hover,.contactanos:hover, .quienes-somos:hover{
+    color:#F9DF74;
+}
+.login-button {
+    background-color: #F9DF74;
+    color: black; /* Cambiar el color del texto a negro */
+    border: none;
+    border-radius: 5px;
+    padding: 12px 24px; /* Ajusta el relleno */
+    font-size: 18px; /* Ajusta el tamaño de la fuente */
+    text-decoration: none;
+}
+.register-button{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 24px; /* Ajusta el relleno */
+    font-size: 18px; /* Ajusta el tamaño de la fuente */
+    text-decoration: none;
+    border: 2px solid #F9DF74;
+}
+.register-button:hover {
+    background-color: #F9DF74;;
+
+}
+
+.login-button:hover {
+    background-color: white;
+}
+
+/*Estilando el cuerpo de la pagina*/
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+}
+
+/*Organizamos las imagenes*/
+.feature {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.feature img {
+    width: 400px; /* Ajusta el tamaño de la imagen según sea necesario */
+    margin-right: 20px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.feature div {
+    flex: 1;
+}
+
+/*Las secciones en general, ajustando colores y demás*/
+section {
+    background-color: rgba(231, 196, 162, 0.35); /* Color de fondo con opacidad */
+    padding: 20px; /* Ajusta el relleno según sea necesario */
+    margin-bottom: 20px; /* Espacio entre las secciones */
+    text-align: center;
+    margin: 10%;
+    padding: 12px 24px;
+    border-radius: 30px;
+
+} 
+section a:hover{
+    background-color: white;
+}
+section a{
+    background-color: #FBE18A;
+    color: black; /* Cambiar el color del texto a negro */
+    border: none;
+    border-radius: 5px;
+    padding: 12px 24px; /* Ajusta el relleno */
+    font-size: 18px; /* Ajusta el tamaño de la fuente */
+    border-radius: 10px;
+    text-decoration: none;
+}
+section h3{
+    font-style: italic;
+    color: black;
+}
+/* Estilos para el pie de página */
+footer {
+    display: flex;
+    justify-content: space-between; /* Distribuir los elementos horizontalmente */
+    align-items: center;
+    background-color: white;
+    opacity: 90%;
+    color: black;
+    padding: 20px;
+}
+
+footer .social-icons {
+    display: flex; /* Organizar los íconos de redes sociales horizontalmente */
+}
+
+footer .social-icons a {
+    margin-right: 10px; /* Espacio entre los íconos */
+}
+
+footer p, footer form {
+    margin: 0;
+}
+
+footer .formulario {
+    display: flex; /* Organizar los elementos del formulario horizontalmente */
+    align-items: center; /* Centrar verticalmente los elementos */
+}
+
+footer .formulario input[type="submit"] {
+    background-color: #E7C4A2;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer .formulario input[type="submit"]:hover {
+    background-color:#A2E8DD;
+}
+footer .social-icons {
+    display: block; /* Hacer que el contenedor de los iconos sea un elemento de bloque */
+    text-align: center; /* Centrar los íconos y el texto */
+}
+
+footer .social-icons p {
+    margin-bottom: 10px; /* Espacio entre el texto y los íconos */
+    font-weight: bold; /* Negrita */
+}
+
+footer .social-icons img {
+    margin: 0 5px; /* Espacio entre los íconos */
+}

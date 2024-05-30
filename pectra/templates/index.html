@@ -1,0 +1,81 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Imagenes/Frame 58.png" type="image/x-icon">
+    <title>PECTRA | Gestiona tus Citas</title>
+    <link rel="stylesheet" href="{static 'css/style.css'}">
+    <link rel="icon" type="image/png" href="/Frontend/resources/logo-pectra.png">
+
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <a title="logo" href="../html/index.html"><img src="../Imagenes/logo-pectra.png" alt="logo" /></a>
+            </div>
+            <ul>
+                <li><a href="../html/beneficios-sal.html" class="beneficios">Beneficios para salones</a></li>
+                <li><a href="../html/comunidad.html" class="comunidad">Comunidad</a></li>
+                <li><a href="../html/index.html#contactanos" class="contactanos">Contáctanos</a></li>
+                <li><a href="../html/index.html#quienes-somos" class="quienes-somos">¿Quiénes somos?</a></li> 
+                <li><a href="../html/inicio-sesion.html" class="login-button">Iniciar sesión</a></li>
+                <li><a href="/Frontend/html/registrarse.html" class="register-button">Registrarse</a></li>
+            </ul>
+        </div>
+        <!--<img src="../Imagenes/logo-pectra.png" alt="logo" width="350"> por si agregamos la imagen-->
+    </header>
+    <main>
+        <section class="welcome">
+            <h1>¡Hola te damos la bienvenida a Pectra!</h1>
+            <h3>¡Tu solución para agendar citas de salón de belleza de manera sencilla!</h3>
+        </section> 
+        <section class="feature">
+            <img src="../Imagenes/imagen3.png">
+            <div>
+                <p>Transforma la gestión de tu negocio. Optimiza tus citas, aumenta la visibilidad en línea y brinda a tus clientes una experiencia excepcional</p>
+            </div>
+        </section>
+        <section class="feature">
+            <div>
+                <p>Desde la programación sencilla hasta las herramientas de marketing, estamos aquí para ayudarte a crecer. ¿Quieres saber más?</p>
+                <a href="../html/beneficios-sal.html">Descubre todos los beneficios</a>
+            </div>
+            <img src="../Imagenes/Frame 48.png">
+        </section>
+        <section class="feature">
+            <img src="../Imagenes/Frame 38.png">
+            <div>
+                <p>¡Únete a nuestra vibrante comunidad en línea! Descubre un lugar donde la conversación cobra vida, las preguntas encuentran respuestas y donde compartimos conocimientos juntos.</p>
+                <a href="../html/beneficios-sal.html">Esperamos verte allí</a>
+            </div>
+        </section>
+        <section class="feature">
+            <div>
+                <p id="quienes-somos"> Somos la puerta a la belleza, la eficiencia y la comodidad. En PECTRA, hemos transformado la forma en que te conectas con tus clientes y gestionas tu salón. Nuestra pasión es simplificar tu vida y potenciar tu éxito, ofreciendo una experiencia de agendamiento de citas sin igual. Descubre el futuro de la belleza hoy mismo.</p>
+            </div>
+            <img src="../Imagenes/logo-pectra.png">
+        </section>
+    </main>
+    
+    <footer>
+        <div class="social-icons"> 
+            <p>Redes Sociales</p>
+            <a href="enlace de icono de red social" target="_blank"><img src="../Imagenes/iconos/facebook.png" alt="Facebook"></a>
+            <a href="enlace de icono de red social" target="_blank"><img src="../Imagenes/iconos/instagram.png" alt="Instagram"></a>
+            <a href="enlace de icono de red social" target="_blank"><img src="../Imagenes/iconos/wpp.png" alt="Whatsapp"></a>
+        </div>
+        <div class="subscribe">
+            <p>Suscribete</p>
+            <form class="formulario" action="procesar-formulario.php" method="post">
+                <input type="text" id="suscribete" placeholder="¡Tu email aquí!" name="suscribete">
+                <input type="submit" value="Suscribirse"> 
+            </form>
+        </div>
+        <p id="contactanos">Contacto<br>uncorreo@gmail.com</p>
+    </footer>
+    
+</body>
+</html>

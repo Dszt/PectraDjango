@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('../Imagenes/fonts/NotoSans-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'QuickSand';
+    src: url('../Imagenes/fonts/Quicksand-Bold.ttf');
+    font-style: normal;
+    font-weight: normal;
+}
+body {
+    font-family: "Noto Sans", sans-serif;
+    background-image: url('ruta/a/tu/imagen.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    position: relative;
+    margin-bottom: 100px; /* Ajustar según la altura del footer */
+    background-color: rgba(231, 196, 162, 0.3); /* Color de fondo con opacidad */
+}
+
+
+
+header {
+    text-align: center;
+}
+
+header img {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: auto;
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    width: 90%;
+    height: 10vh; /* Ajusta según la altura deseada */
+    position: fixed;
+    bottom: 0;
+}
+
+footer .social-icons {
+    display: flex;
+    justify-content: center; /* Centrar los íconos horizontalmente */
+}
+
+footer .social-icons a {
+    margin: 0 5px; /* Ajustar el espacio entre los íconos */
+}
+
+footer .formulario {
+    display: flex;
+    align-items: center;
+}
+
+footer .formulario input[type="submit"] {
+    background-color: #E7C4A2;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer .formulario input[type="submit"]:hover {
+    background-color: #A2E8DD;
+}
+
+footer .social-icons {
+    display: block;
+    text-align: center;
+}
+
+footer .social-icons p {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+footer .social-icons img {
+    margin: 0 5px;
+}
